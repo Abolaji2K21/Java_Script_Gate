@@ -1,20 +1,24 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-/text-align: center;/
+    text-align: center;
 }
 
 .container {
     margin: 50px auto;
-    max-width: 300px;
+    /*max-width: 300px;*/
     padding: 20px;
-    border-radius: 10px;
-    background-color: #1f1f1f;
+    border-radius: 152px;
+    background-color: darkslategrey;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2 {
     color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .city-name {
@@ -23,6 +27,7 @@ h2 {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .submit {
@@ -49,5 +54,10 @@ h2 {
     margin-bottom: 10px;
     color: white;
     text-align: center;
-
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
